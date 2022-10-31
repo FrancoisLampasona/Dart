@@ -1,9 +1,8 @@
-# Introduzione a Dart 
+# Introduzione a Dart :
 
-<center>
-<img src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290">
 
-</center>
+<img style="margin-left: auto; margin-right: auto" src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="200">
+
 
 > ##  Dart :
 
@@ -15,7 +14,7 @@
 ---
 > ## Come funziona Dart ?
 
-<center> 
+<div align ='center'>
 
 |Standalone :             |       Compilato :                 |     Web :         |
 |    :---                 |             :---                  |     :--           |
@@ -25,49 +24,53 @@
 |- Basse prestazioni      |       - Alte prestazioni          |                   |
 |- Multiplatform          |       - MultiPlatform             |                   |
 
-</center>
+</div>
 
+---
 
 > ## Indice dei contenuti :
 
----
+<br>
+
 *Il linguaggio :*
 
 1. [Variabili e Tipi](#variabili-e-tipi)
-2. I Modificatori
-3. Null-safety
-4. Operatori
-5. Costrutti di selezione
-6. Costrutti di iterazione
-7. Le asserzioni
-8. Funzioni
+2. [I Modificatori](#i-modificatori)
+3. [Null-safety](#null-safety)
+4. [Operatori](#operatori)
+5. [Costrutti di selezione](#costrutti-di-selezione)
+6. [Costrutti di iterazione](#costrutti-di-iterazione)
+7. [Le asserzioni](#le-asserzioni)
+8. [Funzioni](#funzioni)
 
 *Paradigma Object Oriented :*
 
-9. Classi
-10. Costruttori
-11. Getters e Setters
-12. Ereditarietà
-13. Classi Astratte
-14. Interfacce
-15. Extensions
-16. Mixins
-17. Generics
-18. Attributi e metodi statistici
-19. Classi invocabili
-20. Enum
+9.  [Classi](#classi)
+10. [Costruttori](#costruttori)
+11. [Getters e Setters](#getters-e-setters)
+12. [Ereditarietà](#ereditarietà)
+
+
+13. [Classi Astratte](#classi-astratte)
+14. [Interfacce](#interfacce)
+15. [Extensions](#extensions)
+16. [Mixins](#mixins)
+17. [Generics](#generics)
+18. [Attributi e metodi statistici](#attributi-e-metodi-statistici)
+19. [Classi invocabili](#classi-invocabili)
+20. [Enum](#enum)
 
 *Dart Avanzata :*
 
-21. Eccezioni
-22. Librerie
-23. Commenti
+21. [Eccezioni](#eccezioni)
+22. [Librerie](#librerie)
+23. [Commenti](#commenti)
 
 *Programmazione Asincrona :*
 
-24. Future
-25. Stream
-26. Isolate
+24. [Future](#future)
+25. [Stream](#stream)
+26. [Isolate](#isolate)
 ---
 > ## Variabili e Tipi :
 <br>
@@ -92,6 +95,57 @@ Tipo speciale : `dynamic`
 
 `Dynamic` : Quando il tempo della variabile non è noto durante la compilazione
 
+
+
+>## I Modificatori
+
+>## Null-safety
+
+>## Operatori
+
+>## Costrutti di selezione
+
+>## Costrutti di iterazione
+
+>## Le asserzioni
+
+>## Funzioni
+
+>## Classi
+
+>## Costruttori
+
+>## Getters e Setters
+
+>## Ereditarietà
+
+>## Classi Astratte
+
+>## Interfacce
+
+>## Extensions
+
+>## Mixins
+
+>## Generics
+
+>## Attributi e metodi statistici
+
+>## Classi invocabili
+
+>## Enum
+
+>## Eccezioni
+
+>## Librerie
+
+>## Commenti
+
+>## Future
+
+>## Stream
+
+>## Isolate
 
 
 
