@@ -107,7 +107,7 @@ Alla variabile **Francois** , viene assegnato solo nella seconda riga il tipo di
 
 Il Dizionario in dart è una classe di tipo Map , quando si ripete nel codice lo stesso di tipo di elemento e conveniente ed efficente utilizzare un typedef per ridefinire il "nome" del tipo.
 
-<img src="https://raw.githubusercontent.com/zPhooenix/Dart/main/Immagini/typedef.png?token=GHSAT0AAAAAAB2S2L3CQICZE3KBRKEYRXUGY3AKYAQ" width="580" height="170" hspace ="135"></img>
+<img src="https://github.com/zPhooenix/Dart/blob/main/Immagini/typedef.png?raw=true" width="580" height="170" hspace ="135"></img>
 
 [Esempi di codice su Variabili e Tipi in Dart]
 
