@@ -1,7 +1,7 @@
 # Introduzione a Dart :
 
 
-<img style="margin-left: auto; margin-right: auto" src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="200">
+<img style="margin-left: auto; margin-right: auto" src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="150">
 
 
 > ##  Dart :
@@ -45,12 +45,11 @@
 
 *Paradigma Object Oriented :*
 
+
 9.  [Classi](#classi)
 10. [Costruttori](#costruttori)
 11. [Getters e Setters](#getters-e-setters)
 12. [Ereditarietà](#ereditarietà)
-
-
 13. [Classi Astratte](#classi-astratte)
 14. [Interfacce](#interfacce)
 15. [Extensions](#extensions)
@@ -96,57 +95,107 @@ Tipo speciale : `dynamic`
 `Dynamic` : Quando il tempo della variabile non è noto durante la compilazione
 
 
+---
+> ## I Modificatori :
+<br>
 
->## I Modificatori
+---
+>## Null-safety :
+<br>
 
->## Null-safety
+---
+>## Operatori :
+<br>
 
->## Operatori
+---
+>## Costrutti di selezione :
+<br>
 
->## Costrutti di selezione
+---
+>## Costrutti di iterazione :
+<br>
 
->## Costrutti di iterazione
+---
+>## Le asserzioni :
+<br>
 
->## Le asserzioni
+--- 
+>## Funzioni :
+<br>
 
->## Funzioni
+---
+>## Classi :
+<br>
 
->## Classi
+---
+>## Costruttori :
+<br>
 
->## Costruttori
+---
+>## Getters e Setters :
+<br>
 
->## Getters e Setters
+---
+>## Ereditarietà :
+<br>
 
->## Ereditarietà
+---
+>## Classi Astratte :
+<br>
 
->## Classi Astratte
+---
+>## Interfacce :
+<br>
 
->## Interfacce
+---
+>## Extensions :
+<br>
 
->## Extensions
+---
+>## Mixins :
+<br>
 
->## Mixins
+---
+>## Generics :
+<br>
 
->## Generics
+---
+>## Attributi e metodi statistici :
+<br>
 
->## Attributi e metodi statistici
+---
+>## Classi invocabili :
+<br>
 
->## Classi invocabili
+---
+>## Enum :
+<br>
 
->## Enum
+---
+>## Eccezioni :
+<br>
 
->## Eccezioni
+---
+>## Librerie :
+<br>
 
->## Librerie
+---
+>## Commenti :
+<br>
 
->## Commenti
+---
+>## Future :
+<br>
 
->## Future
+---
+>## Stream :
+<br>
 
->## Stream
+---
+>## Isolate :
+<br>
 
->## Isolate
-
+---
 
 
 
