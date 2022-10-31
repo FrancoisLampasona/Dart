@@ -103,10 +103,13 @@ Esempio di variabile non esplicita :
     print(Francois);
  }
 ```
-Alla variabile Francois , viene assegnato solo nella seconda riga il tipo di valore che conterra che in questo caso è una stringa , il compilatore automaticamente ne determinerà il tipo. 
+Alla variabile **Francois** , viene assegnato solo nella seconda riga il tipo di valore che conterra che in questo caso è una stringa , il compilatore automaticamente ne determinerà il tipo.
 
-[Esempi di codice su Variabili e Tipi in Dart] 
+Il Dizionario in dart è una classe di tipo Map , quando si ripete nel codice lo stesso di tipo di elemento e conveniente ed efficente utilizzare un typedef per ridefinire il "nome" del tipo.
 
+<img src="https://raw.githubusercontent.com/zPhooenix/Dart/main/Immagini/typedef.png?token=GHSAT0AAAAAAB2S2L3CQICZE3KBRKEYRXUGY3AKYAQ" width="580" height="170" hspace ="135"></img>
+
+[Esempi di codice su Variabili e Tipi in Dart]
 
 ---
 > ## I Modificatori :
@@ -263,30 +266,30 @@ Alla variabile Francois , viene assegnato solo nella seconda riga il tipo di val
 
 
 
-[Esempi di codice su Variabili e Tipi in Dart] : 
-[Esempi di codice su Modificatori in Dart] : 
-[Esempi di codice su Null-Safety in Dart] : 
-[Esempi di codice su Operatori in Dart] : 
-[Esempi di codice su Costrutti di selezione in Dart] : 
-[Esempi di codice su Costrutti di iterazione in Dart] : 
-[Esempi di codice su Le asserzioni in Dart] : 
-[Esempi di codice su Funzioni in Dart] : 
-[Esempi di codice su Classi in Dart] : 
-[Esempi di codice su Costruttori in Dart] : 
-[Esempi di codice su Getters e Setters in Dart] : 
-[Esempi di codice su Ereditarietà in Dart] : 
-[Esempi di codice su Classi Astratte in Dart] : 
-[Esempi di codice su Interfacce in Dart] : 
-[Esempi di codice su Extensions in Dart] : 
-[Esempi di codice su Mixins in Dart] : 
-[Esempi di codice su Generics in Dart] : 
-[Esempi di codice su Attributi e metodi statici in Dart] : 
-[Esempi di codice su Classi invocabili in Dart] : 
-[Esempi di codice su Enum in Dart] : 
-[Esempi di codice su Eccezioni in Dart] : 
-[Esempi di codice su Librerie in Dart] : 
-[Esempi di codice su Commenti in Dart] : 
-[Esempi di codice su Future in Dart] : 
-[Esempi di codice su Stream in Dart] : 
-[Esempi di codice su Isolate in Dart] : 
+[Esempi di codice su Variabili e Tipi in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Varibili%20e%20Tipi.dart>
+[Esempi di codice su Modificatori in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Modificatori.dart>
+[Esempi di codice su Null-Safety in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Null-Safety.dart>
+[Esempi di codice su Operatori in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Operatori.dart>
+[Esempi di codice su Costrutti di selezione in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Costrutti%20di%20selezione.dart>
+[Esempi di codice su Costrutti di iterazione in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Costrutti%20di%20iterazione.dart>
+[Esempi di codice su Le asserzioni in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Le%20asserzioni.dart>
+[Esempi di codice su Funzioni in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Funzioni.dart>
+[Esempi di codice su Classi in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Classi.dart>
+[Esempi di codice su Costruttori in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Costruttori.dart>
+[Esempi di codice su Getters e Setters in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Getters%20e%20Setters.dart>
+[Esempi di codice su Ereditarietà in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Ereditariet%C3%A0.dart>
+[Esempi di codice su Classi Astratte in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Classi%20Astratte.dart>
+[Esempi di codice su Interfacce in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Interfacce.dart>
+[Esempi di codice su Extensions in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Extensions.dart>
+[Esempi di codice su Mixins in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Mixins.dart>
+[Esempi di codice su Generics in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Generics.dart>
+[Esempi di codice su Attributi e metodi statici in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Attributi%20e%20metodi%20statici.dart> 
+[Esempi di codice su Classi invocabili in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Classi%20Invocabili.dart>
+[Esempi di codice su Enum in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Enum.dart>
+[Esempi di codice su Eccezioni in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Eccezioni.dart>
+[Esempi di codice su Librerie in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Librerie.dart>
+[Esempi di codice su Commenti in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Commenti.dart>
+[Esempi di codice su Future in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Future.dart>
+[Esempi di codice su Stream in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Stream.dart>
+[Esempi di codice su Isolate in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Isolate.dart>
 
