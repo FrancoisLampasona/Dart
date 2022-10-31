@@ -94,108 +94,199 @@ Tipo speciale : `dynamic`
 
 `Dynamic` : Quando il tempo della variabile non è noto durante la compilazione
 
+Esempio di variabile non esplicita :
+
+```Dart
+ void main (){
+    var Francois;
+    Francois = "Francois"; 
+    print(Francois);
+ }
+```
+Alla variabile Francois , viene assegnato solo nella seconda riga il tipo di valore che conterra che in questo caso è una stringa , il compilatore automaticamente ne determinerà il tipo. 
+
+[Esempi di codice su Variabili e Tipi in Dart] 
+
 
 ---
 > ## I Modificatori :
 <br>
 
+
+[Esempi di codice su Modificatori in Dart] :
+
 ---
 >## Null-safety :
 <br>
+
+[Esempi di codice su Null-Safety in Dart] : 
 
 ---
 >## Operatori :
 <br>
 
+[Esempi di codice su Operatori in Dart] : 
+
 ---
 >## Costrutti di selezione :
 <br>
+
+[Esempi di codice su Costrutti di selezione in Dart] : 
 
 ---
 >## Costrutti di iterazione :
 <br>
 
+[Esempi di codice su Costrutti di iterazione in Dart] : 
+
 ---
 >## Le asserzioni :
 <br>
+
+[Esempi di codice su Le asserzioni in Dart] : 
 
 --- 
 >## Funzioni :
 <br>
 
+[Esempi di codice su Funzioni in Dart] : 
+
 ---
 >## Classi :
 <br>
+
+[Esempi di codice su Classi in Dart] :
 
 ---
 >## Costruttori :
 <br>
 
+[Esempi di codice su Costruttori in Dart] :
+
 ---
 >## Getters e Setters :
 <br>
+
+[Esempi di codice su Getters e Setters in Dart] : 
 
 ---
 >## Ereditarietà :
 <br>
 
+[Esempi di codice su Ereditarietà in Dart] : 
+
 ---
 >## Classi Astratte :
 <br>
+
+[Esempi di codice su Classi Astratte in Dart] : 
 
 ---
 >## Interfacce :
 <br>
 
+[Esempi di codice su Interfacce in Dart] :
+
 ---
 >## Extensions :
 <br>
+
+[Esempi di codice su Extensions in Dart] : 
 
 ---
 >## Mixins :
 <br>
 
+[Esempi di codice su Mixins in Dart] : 
+
 ---
 >## Generics :
 <br>
+
+[Esempi di codice su Generics in Dart] : 
 
 ---
 >## Attributi e metodi statistici :
 <br>
 
+[Esempi di codice su Attributi e metodi statici in Dart] : 
+
 ---
 >## Classi invocabili :
 <br>
+
+[Esempi di codice su Classi invocabili in Dart] : 
 
 ---
 >## Enum :
 <br>
 
+[Esempi di codice su Enum in Dart] : 
+
 ---
 >## Eccezioni :
 <br>
+
+[Esempi di codice su Eccezioni in Dart] : 
 
 ---
 >## Librerie :
 <br>
 
+[Esempi di codice su Librerie in Dart] : 
+
 ---
 >## Commenti :
 <br>
+
+[Esempi di codice su Commenti in Dart] : 
 
 ---
 >## Future :
 <br>
 
+[Esempi di codice su Future in Dart] : 
+
 ---
 >## Stream :
 <br>
+
+[Esempi di codice su Stream in Dart] : 
 
 ---
 >## Isolate :
 <br>
 
+[Esempi di codice su Isolate in Dart] : 
+
 ---
 
 
+
+[Esempi di codice su Variabili e Tipi in Dart] : 
+[Esempi di codice su Modificatori in Dart] : 
+[Esempi di codice su Null-Safety in Dart] : 
+[Esempi di codice su Operatori in Dart] : 
+[Esempi di codice su Costrutti di selezione in Dart] : 
+[Esempi di codice su Costrutti di iterazione in Dart] : 
+[Esempi di codice su Le asserzioni in Dart] : 
+[Esempi di codice su Funzioni in Dart] : 
+[Esempi di codice su Classi in Dart] : 
+[Esempi di codice su Costruttori in Dart] : 
+[Esempi di codice su Getters e Setters in Dart] : 
+[Esempi di codice su Ereditarietà in Dart] : 
+[Esempi di codice su Classi Astratte in Dart] : 
+[Esempi di codice su Interfacce in Dart] : 
+[Esempi di codice su Extensions in Dart] : 
+[Esempi di codice su Mixins in Dart] : 
+[Esempi di codice su Generics in Dart] : 
+[Esempi di codice su Attributi e metodi statici in Dart] : 
+[Esempi di codice su Classi invocabili in Dart] : 
+[Esempi di codice su Enum in Dart] : 
+[Esempi di codice su Eccezioni in Dart] : 
+[Esempi di codice su Librerie in Dart] : 
+[Esempi di codice su Commenti in Dart] : 
+[Esempi di codice su Future in Dart] : 
+[Esempi di codice su Stream in Dart] : 
+[Esempi di codice su Isolate in Dart] : 
 
