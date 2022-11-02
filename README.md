@@ -86,9 +86,9 @@ Numeri  = Interi / Floating Point <br>
 Stringe = Carattarei Alpha Numerici <br>
 Boolean = True o False
 
->Liste = Elementi seguono un certo ordine sono numerati <br>
->Set   = Gli elementi non hanno vincoli sugli ordine <br>
->Dizionari = Ogni elemento è associato ad una chiave <br>
+>Liste = Elementi seguono un certo ordine , sono numerati. <br>
+>Set   = Gli elementi non hanno vincoli sull'ordine. <br>
+>Dizionari = Ogni elemento è associato ad una chiave. <br>
 
 Tipo speciale : `dynamic`
 
@@ -107,7 +107,18 @@ Alla variabile **Francois** , viene assegnato solo nella seconda riga il tipo di
 
 Il Dizionario in dart è una classe di tipo Map , quando si ripete nel codice lo stesso di tipo di elemento e conveniente ed efficente utilizzare un typedef per ridefinire il "nome" del tipo.
 
-<img src="https://github.com/zPhooenix/Dart/blob/main/Immagini/typedef.png?raw=true" width="580" height="170" hspace ="135"></img>
+```Dart
+typedef Dizionario = Map <String,int>;
+
+void main (){
+    Dizionario Dictionary = {
+      "Francois":10;
+      "Manuel":9;
+      "Mario":8;
+    }
+}
+```
+
 
 [Esempi di codice su Variabili e Tipi in Dart]
 
@@ -115,12 +126,31 @@ Il Dizionario in dart è una classe di tipo Map , quando si ripete nel codice lo
 > ## I Modificatori :
 <br>
 
+Le variabili possono dotarsi di particolari modificatori che ne cambiano il comportamento
+
+Modificatori :
+>- Late : Dichiarare una variabile senza assegnare un valore,allocando >memoria solamente nel momento in cui è utilizzata
+>- Const : La variabile viene destinata in un area di memoria che >assumerà un specifico valore che non può cambiare durante l'esecuzione
+>- Final : La variabile viene destinata in un area di memoria che assumerà un valore che rimmarà constante durante l'esecuzione
 
 [Esempi di codice su Modificatori in Dart] :
 
 ---
->## Null-safety :
+>## Null-Safety :
 <br>
+
+Partendo dalla versione 2.14 di Dart tutte le variabili sono per dafault inizzializzate a `"NULL"`, ammettendo che durante l'esecuzione una variabile potrebbe essere null.
+
+In questo modo il dominio dei tipi delle variabili raddoppia, esempio fatto con i tipi Numerici :
+
+```mermaid
+  graph TD;
+      Numeri-->Interi/Nullable;
+      Numeri-->Doppia-Precisione/Nullable;
+      Numeri-->Interi/Non-Nullable;
+      Numeri-->Doppia-Precisione/NonNullable;
+
+```
 
 [Esempi di codice su Null-Safety in Dart] : 
 
@@ -128,11 +158,32 @@ Il Dizionario in dart è una classe di tipo Map , quando si ripete nel codice lo
 >## Operatori :
 <br>
 
+Una variabile è detta tale perchè può essere modifica nel tempo, per fare ciò bisogna assegnare un espressione che essere stata valutata assegnerà la variabile al suo indirizzo di memoria
+
+```mermaid
+graph LR;
+A(var a = 5 + 3)-->a(var a = 8);
+a-->B(0xFF453C)
+```
+>Diversi tipi di operatori :
+>- Aritmetici : Somma ( + ) , Sottrazione ( - ) , Moltiplicazione ( * ), Divisione ( / ), Divisione Intera ( ~/ ) , Modulo ( % ) , Incremento ( ++ ) , Decremento ( -- )
+>- Relazionali : Maggiore ( > ) , Minore ( < ), Maggiore Uguale ( >= ), Minore Uguale ( <= ) , Uguale ( == ) , Diverso ( != )
+>- Controllo dati strutturati : ( is ) , ( is! )
+>- Bitwise : And ( & ) , Or ( | ) , Xor ( ^ ) , Complemento ( ~ ) , Shift a Sinistra ( << ) , Shift a destra ( >> )
+>- Assegnazione : Assegnazione ( = ) , Assegna se null ( ??= ) , Somma e assegna ( += ) , Sottrai e assegna ( -= ) , Moltiplica e assegna ( *= ) , Dividi e assegna ( /= ) 
+>- Concatenazione logica : And ( && ) , Or ( || ) , Not ( ! )
+>- Condizionali : Operatore ternario ( a ? b : c ) , Null coalescing ( a ?? b )
+
+// `Operatore ternario` : Se 'a' è `True` esegui 'b' se no fai 'c'
+
+
 [Esempi di codice su Operatori in Dart] : 
 
 ---
 >## Costrutti di selezione :
 <br>
+
+
 
 [Esempi di codice su Costrutti di selezione in Dart] : 
 
