@@ -71,7 +71,7 @@
 25. [Stream](#stream)
 26. [Isolate](#isolate)
 ---
-> ## Variabili e Tipi :
+> ## Variabili e Tipi 
 <br>
 
 Variabile = rappresentazione in memoria di un determinato dato
@@ -123,7 +123,7 @@ void main (){
 [Esempi di codice su Variabili e Tipi in Dart]
 
 ---
-> ## I Modificatori :
+> ## I Modificatori 
 <br>
 
 Le variabili possono dotarsi di particolari modificatori che ne cambiano il comportamento
@@ -136,7 +136,7 @@ Modificatori :
 [Esempi di codice su Modificatori in Dart] :
 
 ---
->## Null-Safety :
+>## Null-Safety 
 <br>
 
 Partendo dalla versione 2.14 di Dart tutte le variabili sono per dafault inizzializzate a `"NULL"`, ammettendo che durante l'esecuzione una variabile potrebbe essere null.
@@ -155,7 +155,7 @@ In questo modo il dominio dei tipi delle variabili raddoppia, esempio fatto con 
 [Esempi di codice su Null-Safety in Dart] : 
 
 ---
->## Operatori :
+>## Operatori 
 <br>
 
 Una variabile è detta tale perchè può essere modifica nel tempo, per fare ciò bisogna assegnare un espressione che essere stata valutata assegnerà la variabile al suo indirizzo di memoria
@@ -180,7 +180,7 @@ a-->B(0xFF453C)
 [Esempi di codice su Operatori in Dart] : 
 
 ---
->## Costrutti di selezione :
+>## Costrutti di selezione 
 <br>
 
 
@@ -188,127 +188,127 @@ a-->B(0xFF453C)
 [Esempi di codice su Costrutti di selezione in Dart] : 
 
 ---
->## Costrutti di iterazione :
+>## Costrutti di iterazione 
 <br>
 
 [Esempi di codice su Costrutti di iterazione in Dart] : 
 
 ---
->## Le asserzioni :
+>## Le asserzioni 
 <br>
 
 [Esempi di codice su Le asserzioni in Dart] : 
 
 --- 
->## Funzioni :
+>## Funzioni 
 <br>
 
 [Esempi di codice su Funzioni in Dart] : 
 
 ---
->## Classi :
+>## Classi 
 <br>
 
 [Esempi di codice su Classi in Dart] :
 
 ---
->## Costruttori :
+>## Costruttori 
 <br>
 
 [Esempi di codice su Costruttori in Dart] :
 
 ---
->## Getters e Setters :
+>## Getters e Setters 
 <br>
 
 [Esempi di codice su Getters e Setters in Dart] : 
 
 ---
->## Ereditarietà :
+>## Ereditarietà 
 <br>
 
 [Esempi di codice su Ereditarietà in Dart] : 
 
 ---
->## Classi Astratte :
+>## Classi Astratte 
 <br>
 
 [Esempi di codice su Classi Astratte in Dart] : 
 
 ---
->## Interfacce :
+>## Interfacce 
 <br>
 
 [Esempi di codice su Interfacce in Dart] :
 
 ---
->## Extensions :
+>## Extensions 
 <br>
 
 [Esempi di codice su Extensions in Dart] : 
 
 ---
->## Mixins :
+>## Mixins 
 <br>
 
 [Esempi di codice su Mixins in Dart] : 
 
 ---
->## Generics :
+>## Generics 
 <br>
 
 [Esempi di codice su Generics in Dart] : 
 
 ---
->## Attributi e metodi statistici :
+>## Attributi e metodi statistici 
 <br>
 
 [Esempi di codice su Attributi e metodi statici in Dart] : 
 
 ---
->## Classi invocabili :
+>## Classi invocabili 
 <br>
 
 [Esempi di codice su Classi invocabili in Dart] : 
 
 ---
->## Enum :
+>## Enum 
 <br>
 
 [Esempi di codice su Enum in Dart] : 
 
 ---
->## Eccezioni :
+>## Eccezioni 
 <br>
 
 [Esempi di codice su Eccezioni in Dart] : 
 
 ---
->## Librerie :
+>## Librerie 
 <br>
 
 [Esempi di codice su Librerie in Dart] : 
 
 ---
->## Commenti :
+>## Commenti 
 <br>
 
 [Esempi di codice su Commenti in Dart] : 
 
 ---
->## Future :
+>## Future 
 <br>
 
 [Esempi di codice su Future in Dart] : 
 
 ---
->## Stream :
+>## Stream 
 <br>
 
 [Esempi di codice su Stream in Dart] : 
 
 ---
->## Isolate :
+>## Isolate 
 <br>
 
 [Esempi di codice su Isolate in Dart] : 
