@@ -183,6 +183,9 @@ a-->B(0xFF453C)
 >## Costrutti di selezione 
 <br>
 
+Un costrutto di selzione è uno strumento utilizzato al verificarsi di determinate condizioni per rendere più chiaro il programma o una specifica funzione.
+
+Sono costrutti di selezione : `if , if else , switch `.
 
 
 [Esempi di codice su Costrutti di selezione in Dart] : 
@@ -191,11 +194,20 @@ a-->B(0xFF453C)
 >## Costrutti di iterazione 
 <br>
 
+Un costrutto di iterazione è uno strumento utilizzato per iterare una serie di istruzioni al verificarsi di determinate condizioni per rendere più chiaro il programma o una specifica funzione.
+
+Sono costrutti di iterazione : `For , While , Do While`.
+
+
 [Esempi di codice su Costrutti di iterazione in Dart] : 
 
 ---
 >## Le asserzioni 
 <br>
+
+Come i costrutti di selezione si utilizzano al verificarsi di determinate condizioni , in questo cosa il codice viene eseguito solo in caso di positività delle condizioni viceversa verrà rilasciata una eccezzione.
+
+Vengono utilizzate per determinare alcuni casi limite , ma solamente in modalità `debug` , in modalità `release` non rilasceranno alcuna eccezzione.
 
 [Esempi di codice su Le asserzioni in Dart] : 
 
