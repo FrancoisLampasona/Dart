@@ -215,11 +215,49 @@ Vengono utilizzate per determinare alcuni casi limite , ma solamente in modalit�
 >## Funzioni 
 <br>
 
+Quando il codice da eseguire diventa troppo lungo,  il che lo può rendere poco chiaro oppure ci si rende conto di dover eseguire in più punti del 
+programma le stesse istruzioni allora può essere utile incampsularle in funzioni.
+> Una funzione può essere chiamata e valutata come una normale espressione e può restituire una valore in `output` che dipende da una serie di parametri dati in `input` , le funzioni vengono trattate come ogettti e ha uno specifico nome `fuction` e possono essere assegnate a variabili o passate come parametri ad altre funzioni.
+
+
+`Cascate Notation` : L'arrow function addItemCascateNotation utilizza list.add che resistuisce per dafautl void ma con l'operatore '.' permette di restituire l'oggetto che precede l'istruzione in questo caso `list`
+
+```Dart
+
+// Cascate Notation
+final list = ["Marco","Francesco", "Luca"];
+addItem("Giulio", list: list);
+print (list);
+
+addItemCascateNotation("Simone", list: list);
+print(list);
+
+List <String> addItem(String item , {required List<String> list}){
+  list.add(item);
+  return list;
+}
+
+List <String> addItemCascateNotation(String item , {required List<String> list}) => list..add(item)..removeAt(0);
+
+```
+
 [Esempi di codice su Funzioni in Dart] : 
 
 ---
 >## Classi 
 <br>
+
+Gli oggetti sono istanze di classi , le classi sono un modello o astrazioni di un concetto che possiede attribuiti e metodi ad esempio una persona 
+
+<img src="https://i.imgur.com/MitFcaD.png" hspace="80">
+
+> Persona è `la classe` , i suoi attributi sono nome , cognome ecc..
+> i suoi metodi sono cammina , parla e mangia...
+<br>
+
+> Mario Rossi è `l'oggetto` che ha metodi e attributi della classe.
+
+
 
 [Esempi di codice su Classi in Dart] :
 
@@ -227,11 +265,22 @@ Vengono utilizzate per determinare alcuni casi limite , ma solamente in modalit�
 >## Costruttori 
 <br>
 
+Non è sempre possibile assegnare i valori direttamente agli attributi , soprattuto quando si vuole garantire l'incapsulamento e l'information hiding per cui i dettagli implementativi di una classe devono rimanere nascosti all'utente... rendendo gli attributi privati anteponendo un ` "_" ` davanti al nome della variabile , generando un cotruttore che ha dei parametri che utilizzeremo per avvalorare gli attributi.
+
+>Tutte le classi che non hanno un costruttore personalizzato ne hanno uno di default
+
+>`I costruttori sono delle vere e proprie funzioni , inoltre
+dentro le classi e possibili creare più costruttori`
+
+
 [Esempi di codice su Costruttori in Dart] :
 
 ---
 >## Getters e Setters 
 <br>
+
+Gli unici metodi capaci di modificare gli attributi di una classe sembrano essere i costruttori ma in realtà non è cosi in Dart ci sono dei metodi speciali chiamati `Setters` che consentono di manipolare gli **attributi privati** di una classe , mentre per accedere agli **attributi privati** di una classe in Dart è possibile creare dei `Getters`.
+
 
 [Esempi di codice su Getters e Setters in Dart] : 
 
@@ -239,11 +288,31 @@ Vengono utilizzate per determinare alcuni casi limite , ma solamente in modalit�
 >## Ereditarietà 
 <br>
 
+
+È il classico concetto di erditirarietà presente nei linguaggi `Object - Oriented` in cui viene richiesta una nuova classe (figlo) che presenti metodi e attributi della classe (padre).
+
+>Poniamo il caso di volere specializzare la classe `'Persona'` 
+
+<img src="https://i.imgur.com/w0TVI52.png" hspace="80">
+
+@override indica un `metadata` , viene posto prima della stesura di un qualunque metodo nella classe ereditaria, per definare la funzione ch'è stata anche utilizzata nella classe (padre) da cui derivano i parametri.
+
+>Nella costruzione di una nuova classe (figlia) bisogna ricordare di creare un costruttore che assegni gli attributi della classe (padre) , viene utilizzata la parole `super` per alcune assegnazioni.
+
+
+
 [Esempi di codice su Ereditarietà in Dart] : 
 
 ---
 >## Classi Astratte 
 <br>
+
+Non è sempre possibile per una classe figlio instanziare una classe padre allora vengono utilizzate le classi astratte.
+
+<img src="https://i.imgur.com/WhwZs88.png" hspace="80">
+
+> Un animale ad esempio non può essere instanziato perch'è un `concetto astratto` la zebra , il leone , il cane hanno solo alcuni attributi in comune)
+
 
 [Esempi di codice su Classi Astratte in Dart] : 
 
@@ -251,11 +320,18 @@ Vengono utilizzate per determinare alcuni casi limite , ma solamente in modalit�
 >## Interfacce 
 <br>
 
+Per garantire *l'incapsulamento* relativamente ai metodi di una classe si fa uso delle `interfaccie` che permettono di definire un insieme di firme che dovranno essere rispettate ed implementate dalle classi alle quali queste ultime decido di aderire , per firma si intende la semplice intestazione di un metodo privo del suo contenuto.
+
+> Per istruire una classe ad aderire alle firme di un altra si utilizza la parola `implements`
+
+
 [Esempi di codice su Interfacce in Dart] :
 
 ---
 >## Extensions 
 <br>
+
+
 
 [Esempi di codice su Extensions in Dart] : 
 
