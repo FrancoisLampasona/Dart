@@ -1,7 +1,7 @@
 # Introduzione a Dart :
 
 
-<img style="margin-left: auto; margin-right: auto" src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="138">
+<img src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="115">
 
 
 > ##  Dart :
@@ -249,7 +249,7 @@ List <String> addItemCascateNotation(String item , {required List<String> list})
 
 Gli oggetti sono istanze di classi , le classi sono un modello o astrazioni di un concetto che possiede attribuiti e metodi ad esempio una persona 
 
-<img src="https://i.imgur.com/MitFcaD.png" hspace="30">
+<img src="https://i.imgur.com/MitFcaD.png" >
 
 > Persona è `la classe` , i suoi attributi sono nome , cognome ecc..
 > i suoi metodi sono cammina , parla e mangia...
@@ -293,7 +293,7 @@ Gli unici metodi capaci di modificare gli attributi di una classe sembrano esser
 
 >Poniamo il caso di volere specializzare la classe `'Persona'` 
 
-<img src="https://i.imgur.com/w0TVI52.png" hspace="30">
+<img src="https://i.imgur.com/w0TVI52.png" >
 
 @override indica un `metadata` , viene posto prima della stesura di un qualunque metodo nella classe ereditaria, per definare la funzione ch'è stata anche utilizzata nella classe (padre) da cui derivano i parametri.
 
@@ -309,7 +309,7 @@ Gli unici metodi capaci di modificare gli attributi di una classe sembrano esser
 
 Non è sempre possibile per una classe figlio instanziare una classe padre allora vengono utilizzate le classi astratte.
 
-<img src="https://i.imgur.com/WhwZs88.png" hspace="30">
+<img src="https://i.imgur.com/WhwZs88.png" >
 
 > Un animale ad esempio non può essere instanziato perch'è un `concetto astratto` la zebra , il leone , il cane hanno solo alcuni attributi in comune)
 
@@ -354,7 +354,7 @@ In Dart una classe **può ereditare al massimo da un altra super classe** negand
 *`Generics` servono a portare ad una astrazione sui tipi* :
 
 
-<img src="https://i.imgur.com/DAB4TES.png" hspace="30">
+<img src="https://i.imgur.com/DAB4TES.png">
 
 > Un esempio è la classe list *si comporta indipendetemente dal tipo* , non vi è il bisogno di dover costruire una classe list di interi , stringhe , double ecc...
 
