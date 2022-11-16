@@ -1,7 +1,7 @@
 # Introduzione a Dart :
 
 
-<img style="margin-left: auto; margin-right: auto" src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="150">
+<img style="margin-left: auto; margin-right: auto" src="https://swansoftwaresolutions.com/wp-content/uploads/2020/02/08.20.20-What-is-Dart-and-how-is-it-used-1024x576.jpg" width="600" height="290" hspace="138">
 
 
 > ##  Dart :
@@ -249,7 +249,7 @@ List <String> addItemCascateNotation(String item , {required List<String> list})
 
 Gli oggetti sono istanze di classi , le classi sono un modello o astrazioni di un concetto che possiede attribuiti e metodi ad esempio una persona 
 
-<img src="https://i.imgur.com/MitFcaD.png" hspace="80">
+<img src="https://i.imgur.com/MitFcaD.png" hspace="30">
 
 > Persona è `la classe` , i suoi attributi sono nome , cognome ecc..
 > i suoi metodi sono cammina , parla e mangia...
@@ -293,7 +293,7 @@ Gli unici metodi capaci di modificare gli attributi di una classe sembrano esser
 
 >Poniamo il caso di volere specializzare la classe `'Persona'` 
 
-<img src="https://i.imgur.com/w0TVI52.png" hspace="80">
+<img src="https://i.imgur.com/w0TVI52.png" hspace="30">
 
 @override indica un `metadata` , viene posto prima della stesura di un qualunque metodo nella classe ereditaria, per definare la funzione ch'è stata anche utilizzata nella classe (padre) da cui derivano i parametri.
 
@@ -309,7 +309,7 @@ Gli unici metodi capaci di modificare gli attributi di una classe sembrano esser
 
 Non è sempre possibile per una classe figlio instanziare una classe padre allora vengono utilizzate le classi astratte.
 
-<img src="https://i.imgur.com/WhwZs88.png" hspace="80">
+<img src="https://i.imgur.com/WhwZs88.png" hspace="30">
 
 > Un animale ad esempio non può essere instanziato perch'è un `concetto astratto` la zebra , il leone , il cane hanno solo alcuni attributi in comune)
 
@@ -331,6 +331,10 @@ Per garantire *l'incapsulamento* relativamente ai metodi di una classe si fa uso
 >## Extensions 
 <br>
 
+Può capitare di estendere le funzionalità di una classe senza avere la possibilità di creare una specializzazione in termini di gerarchia questo si verifica spesso quando ci sono dei *vincoli di tipo sulle firme dei metodi* o vogliamo arrichire di funzionalità una libreria esterna a cui non abbiamo accesso 
+
+> Per questo Dart mette a disposizione `l'Extensions` che consente di aggiungere nuovi metodi nelle classi di riferimento.
+
 
 
 [Esempi di codice su Extensions in Dart] : 
@@ -339,11 +343,22 @@ Per garantire *l'incapsulamento* relativamente ai metodi di una classe si fa uso
 >## Mixins 
 <br>
 
+In Dart una classe **può ereditare al massimo da un altra super classe** negando la possibilità di realizzare l'ereditarità multipla per ovviare a questo problema gli sviluppatori hanno messo a disposizioni i `Mixins` che sono degli ottimi strumenti per *aggiungere elementi ad una classe*
+
 [Esempi di codice su Mixins in Dart] : 
 
 ---
 >## Generics 
 <br>
+
+*`Generics` servono a portare ad una astrazione sui tipi* :
+
+
+<img src="https://i.imgur.com/DAB4TES.png" hspace="30">
+
+> Un esempio è la classe list *si comporta indipendetemente dal tipo* , non vi è il bisogno di dover costruire una classe list di interi , stringhe , double ecc...
+
+
 
 [Esempi di codice su Generics in Dart] : 
 
@@ -351,17 +366,32 @@ Per garantire *l'incapsulamento* relativamente ai metodi di una classe si fa uso
 >## Attributi e metodi statistici 
 <br>
 
+Quando bisogna di impostare un *attributo di classe* che abbia valore per *tutte le istanze di quella classe* possiamo utilizzare la parola chiave `static`
+
+> Un attributo di classe statico sarà allocato in memoria solo quando verrà utilizzato per la prima volta e lo stesso elemento non verrà allocato in memoria per ogni istanza della classe di riferimento ma **una e una sola volta**.
+
+
 [Esempi di codice su Attributi e metodi statici in Dart] : 
 
 ---
 >## Classi invocabili 
 <br>
 
+Dart da la possibilità di creare delle classe speciali i cui comportamenti si limita ad una singola funzione *(pattern command)*
+
+> Tramite la parola `call`
+
 [Esempi di codice su Classi invocabili in Dart] : 
 
 ---
 >## Enum 
 <br>
+
+Gli `Enum` sono una speciale tipologia di classi generalmente utilizzati per rappresentare `un numero finito di elementi constanti` 
+
+> Enum sono sostanzialmente delle `costanti` quindi non possono essere ereditati , esplicitamenti istanziati , ne utilizatti come Mixins o Interfacce
+
+
 
 [Esempi di codice su Enum in Dart] : 
 
