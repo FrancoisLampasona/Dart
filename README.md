@@ -399,11 +399,33 @@ Gli `Enum` sono una speciale tipologia di classi generalmente utilizzati per rap
 >## Eccezioni 
 <br>
 
+Durante l'esecuzione dei nostri programmi è possibile che non tutto vada per il verso giusto , quando si verificano delle particolari condizioni che esulano dalla liniarità del flusso di esecuzione si stanno di fatto verificando `degli errori o delle eccezioni` ... 
+> I metodi in dart non sono tenuti a rilanciare le eccezioni. 
+
+<img src="https://i.imgur.com/axIXns0.png">
+
+>Si ci può comunque sottoscrivere nel voler catturare l'eccezione,se non si farà l'errore si propaghera nei vari record delle chiamate alle funzioni fino al **main** creando un `crash nel software`
+
 [Esempi di codice su Eccezioni in Dart] : 
 
 ---
 >## Librerie 
 <br>
+
+Ogni applicazione scritta in Dart è una libreria , attraverso le parole chiave ***import*** e ***library*** possiamo costruire `moduli` da condividere , per condividere la libreria con la community pasta caricarla su GitHub e publiccarla succesivamente  su Pub.dev
+
+
+<img src ="https://i.imgur.com/zTivqWP.png">
+
+
+Può capitare di dover importare classi, motodi o attributi proveninti da librerie esterne i cui nomi si sovrappongono con quelli di una seconda libreria per ovviare a questo problema si può associare un prefisso alla libreria che si sta importando in questo modo i nomi di metodi, classi e attributi dovranno essere ***referenziati tramite il prefisso***
+
+> In Dart inoltre per evitare di importare tutte le componenti di una libreria e possibile sceglierne alcune componenti
+
+> Si può anche spezzare un file in parti più piccole utilizzando part of 'fileA.dart' / part of 'fileB.dart'
+
+<img src ="https://i.imgur.com/kjpJ7zF.png">
+
 
 [Esempi di codice su Librerie in Dart] : 
 
@@ -411,11 +433,26 @@ Gli `Enum` sono una speciale tipologia di classi generalmente utilizzati per rap
 >## Commenti 
 <br>
 
+In dart come in tutti i linguaggi di programmazione è possibile commentare il codice , vi sono diversi mettodi per poterlo commentare :
+1) Commento in line con il doppio //
+2) Commento su più righe commentando le righe con i tripli ///
+3) Commento su più righe tramite /* che si chiude con */ 
+
 [Esempi di codice su Commenti in Dart] : 
 
 ---
 >## Future 
 <br>
+
+
+Dart utilizza il paradigma ***Event Driven*** , le funzioni che riechiedo si essere eseguite in modo `asincrono` devono avere `async` tra la dichiarazione dei parametri e l'apertura delle parentesi o della freccia 'nell'arrow faction'
+
+> Il tipo di output della funzione cambia diventa di tipo `Future` , dove ***future*** implementa una *generics* il cui *tipo* sarà il *tipo* di output *iniziale* dalla funzione
+
+
+<img src="https://i.imgur.com/OKi1cDo.png">
+
+
 
 [Esempi di codice su Future in Dart] : 
 
@@ -423,13 +460,26 @@ Gli `Enum` sono una speciale tipologia di classi generalmente utilizzati per rap
 >## Stream 
 <br>
 
+È possibile costruire dei metodi che producono un ***flusso di valori in modo asincrono***.
+
+> Nel caso in cui avessimo la necessità di generare una seguenza di valori
+
+<img src="https://i.imgur.com/Qc7Lnkz.png">
+
 [Esempi di codice su Stream in Dart] : 
 
 ---
 >## Isolate 
 <br>
 
-[Esempi di codice su Isolate in Dart] : 
+La maggior parte dei dispositivi che essi siano PC o SmartPhone dispongono di `CPU multicore` , 
+> per sfruttare al meglio il parallelismo offerto da queste ultime gli sviluppatore utilizzano ***i threed***.
+
+L'utilizzo di risorse condivise mediante i threed può causare problemi e *gestire errorri* ed *eccezzioni* diventa *difficoltoso* .
+
+> Dart non utilizza i threed ma gli `isolate` , ogni isolate ha disposizione un contesto isoltato in termini di **memoria heap** , in tal modo ogni isolate `non può intaccare isolate differenti `
+
+ Esse hanno due porte da cui si può fare entrare ed uscire i messaggi , i massaggi entrano nell'isolate e vengono consumati `dall'event loop` per lanciare un isolate si utilizza il metodo `spoon ` , lavorare con gli isolate significa utilizzare codice quasi a basso livello generalmente è preferibile utilizzare la ***programmazione asincrona***.
 
 ---
 
@@ -460,5 +510,4 @@ Gli `Enum` sono una speciale tipologia di classi generalmente utilizzati per rap
 [Esempi di codice su Commenti in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Commenti.dart>
 [Esempi di codice su Future in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Future.dart>
 [Esempi di codice su Stream in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Stream.dart>
-[Esempi di codice su Isolate in Dart]: <https://github.com/zPhooenix/Dart/blob/main/Isolate.dart>
 
